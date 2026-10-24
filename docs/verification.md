@@ -28,6 +28,7 @@ Environment: macOS arm64, Node 22.23.4, production Worker builds, local D1/R2/KV
 | Local Worker HTTP | 18 checks passed |
 | Hydrated Chromium | 23 checks passed, including 24 axe page/theme/viewport combinations |
 | Captured-mail Chromium | 1 end-to-end test passed: registration, verification, sign-in, reset and sign-out through real auth handlers |
+| Clean checkout quickstart | Fresh npm ci, all 7 local migrations and dev startup passed; 6 EN/ZH pages checked in Chromium at 390px, no page errors/overflow; one welcome post per locale and old fixture article 404 |
 | Content scale | 128 additional synthetic articles; 0-byte homepage client growth; body sentinels excluded |
 
 Browser coverage includes EN/ZH public routes at 1440px and 390px, navigation/history, form feedback, protected settings, private R2 upload/preview/cancel/delete, loading/error recovery, interrupted navigation, repeated submission, late checkout responses, ten disabled AI tools, theme controls, keyboard skip link and dialog focus/escape/return. Axe found no violations for the selected WCAG A/AA tags in the tested combinations; this is not a complete manual accessibility certification.
