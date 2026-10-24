@@ -39,3 +39,4 @@ evidence/
 .DS_Store
 performance-remediation-checks-*/
 src/routeTree.gen.ts
+.playwright-browsers/
